@@ -1,0 +1,157 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    list-style: none;
+}
+
+.icons {
+    color: #000000;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    background-color: #fff;
+}
+
+h1, p {
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+    
+.img1:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.img2 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img2:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.img3 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img3:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+.img4 {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img4:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+
+
+img {
+    padding-bottom: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome  {
+    padding-bottom: 20px;
+}
+
+.email  {
+    padding-bottom: 20px;
+}
+
+.contato  {
+    padding-bottom: 20px;
+}
+
+input {
+    width: 20rem;
+    height: 3rem;
+}
+
+label {
+    text-align: center;
+}
+
+placeholder {
+    font-size: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    width: 10rem;
+    height: 3rem;
+}
+
+footer {
+    background-color: #000000;
+}
