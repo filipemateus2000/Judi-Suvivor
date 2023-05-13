@@ -5,26 +5,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
-body {
+/*body {
     background-color: #000000;
-}
+}*/
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    position: fixed;
     width: 100%;
+
+}
+
+.logo {
+    color: #fff;
+    padding-left: 20px;
 }
 
 li {
     display: inline;
     padding: 5px;
     list-style: none;
+    text-decoration: none;
 }
 
 .icons {
@@ -33,10 +40,10 @@ li {
     padding: 10px;
 }
 
-.video {
+/*.video {
     width: 100%;
     height: 100vh;
-}
+}*/
 
 main {
     background-color: #fff;
@@ -54,6 +61,8 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .text {
@@ -67,9 +76,11 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.img1 {
+/*.img1 {
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -77,17 +88,24 @@ h1 {
 .img1:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.2);
-}
+}*/
 
-.img2 {
+.img1 {
     transition: all 0.5s;
     cursor: pointer;
 }
 
-.img2:hover {
+.img1:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.2);
 }
+
+
+.img2 {
+    width: 100%;
+}
+
+
 
 .img3 {
     transition: all 0.5s;
@@ -118,6 +136,8 @@ img {
 .formulario {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
 .nome  {
@@ -135,6 +155,14 @@ img {
 input {
     width: 20rem;
     height: 3rem;
+    border-radius: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+input:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
 label {
@@ -143,6 +171,7 @@ label {
 
 placeholder {
     font-size: 10px;
+    padding-left: 15px;
 }
 
 button {
@@ -150,8 +179,25 @@ button {
     color: #fff;
     width: 10rem;
     height: 3rem;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+button:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
 
 footer {
     background-color: #000000;
+}
+
+.button-home {
+    width: 100%;
+    font-size: 30px;
+    background-color: #fff;
+    color: #000000;
+    border-color: #000000;
 }
